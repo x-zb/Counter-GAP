@@ -16,7 +16,7 @@ from bert import tokenization
 #             data += [{col : (cols[index] if 'offset' not in col else int(cols[index])) for index, col in fields}]
 #     return data
 
-sys.path.append('../..')
+sys.path.append('..')
 from utils import gaptsv2ins as read_tsv
 
 
