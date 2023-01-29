@@ -1,6 +1,6 @@
 # CounterGAP
 The CounterGAP dataset is located in `data/`, where 'C-GAP.tsv' is the dataset used in our experiments and `C-GAP-withdot.tsv` is the original dataset with a "." after titles ({e.g.}, Mr., Mrs., etc.).
-The implementation of coreference resolution models in `coref/` are directly copied from , with the only change of the `read_tsv` method in `coref/gap_to_jsonlines.py`. 
+The implementation of coreference resolution models in `coref/` are directly copied from , with the only change of the `read_tsv` method in `coref/gap_to_jsonlines.py`. [Dense Passage Retrieval for Open-Domain Question Answering.](https://arxiv.org/abs/2004.04906)
 
 ## Debiased Models
 You can download our aCDA/nCDA-debiased BERT/SpanBERT checkpoints from the follwoing links (checkpoints fine-tuned on the original training set can be downloaded from the link in `coref/`):
