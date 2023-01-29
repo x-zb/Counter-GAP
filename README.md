@@ -27,7 +27,7 @@ cd coref
 python gap_to_jsonlines.py ../data/C-GAP.tsv ../data/${model_name}/vocab.txt
 CUDA_VISIBLE_DEVICES=0 python predict.py ${model_name} ../data/C-GAP.jsonlines ../data/${model_name}_output.jsonlines
 python to_gap_tsv.py ../data/${model_name}_output.jsonlines
-mv ../data/${model_name}_output.tsv ..data/${debiasing_type}/${model_name}_output.tsv
+mv ../data/${model_name}_output.tsv ..results/${debiasing_type}/${model_name}_output.tsv
 ```
 Next, calculate the evaluation metrics:
 ```bash
