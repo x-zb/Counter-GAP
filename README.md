@@ -1,6 +1,6 @@
 # Counter-GAP
 
-The Counter-GAP dataset is located in `data/`, where `C-GAP.tsv` is the dataset used in our experiments and `C-GAP-withdot.tsv` is the original dataset with a "." after titles (e.g., Mr., Mrs., etc.).
+Counter-GAP is a coreference resolution-based bias diagnostic dataset. `data/C-GAP.tsv` is the dataset used in our experiments where dots after titles (e.g., "." in Mr., Mrs.) are removed; `data/C-GAP-withdot.tsv` is the original dataset with dots in titles.
 
 The implementation of coreference resolution models in `coref/` are directly copied from [BERT and SpanBERT for Coreference Resolution](https://github.com/mandarjoshi90/coref) with minor changes in `coref/gap_to_jsonlines.py`.
 
