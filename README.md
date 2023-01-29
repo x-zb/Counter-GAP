@@ -5,7 +5,7 @@ Counter-GAP is a coreference resolution-based bias diagnostic dataset. `data/C-G
 The implementation of coreference resolution models in `coref/` are directly copied from [BERT and SpanBERT for Coreference Resolution](https://github.com/mandarjoshi90/coref) with minor changes in `coref/gap_to_jsonlines.py`.
 
 ## Debiased Models
-You can download our aCDA/nCDA-debiased BERT/SpanBERT checkpoints from the follwoing links (checkpoints fine-tuned on the original training set can be downloaded from the link in `coref/`):
+You can download our aCDA/nCDA-debiased BERT/SpanBERT checkpoints from the follwoing links (checkpoints fine-tuned on the original OntoNotes training set can be downloaded from the link in `coref/`):
 
 |                | aCDA-debiased | nCDA-debiased |
 | -------------  |:-------------:| -------------:|
