@@ -1,7 +1,7 @@
 # CounterGAP
 
 ## Debiased Models
-You can download our aCDA/nCDA-debiased BERT/SpanBERT checkpoints from the follwoing links (the original undebiased checkpoints can be downloaded from the link in `coref/`):
+You can download our aCDA/nCDA-debiased BERT/SpanBERT checkpoints from the follwoing links (undebiased checkpoints fine-tuned on the original training set can be downloaded from the link in `coref/`):
 
 |                | aCDA-debiased | nCDA-debiased |
 | -------------  |:-------------:| -------------:|
