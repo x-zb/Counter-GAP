@@ -10,7 +10,8 @@ You can download our aCDA/nCDA-debiased BERT/SpanBERT checkpoints from the follw
 | SpanBERT-base  |               |               |
 | SpanBERT-large |               |               |
 
-Or if you want to debias the original models yourself, you could first generate the aCDA/nCDA version of the OntoNotes training set (assuming the file `train.english.v4_gold_conll` is in `data/`): 
+Or if you want to debias the original models yourself, you could first download the OntoNOtes datasets (following the instructions in `coref/`) and
+generate the aCDA/nCDA version of the OntoNotes training set (assuming the training set `train.english.v4_gold_conll` is in `data/`): 
 ```bash
 cd cda
 python -c "from name import *;m=NameMapping()"
