@@ -5,7 +5,7 @@
 ## Debiasing
 
 ## Evaluation on Counter-GAP
-You can download our aCDA/nCDA-debiased BERT/SpanBERT checkpoints from the follwoing links (the original checkpoints can be downloaded in the repository):
+You can download our aCDA/nCDA-debiased BERT/SpanBERT checkpoints from the follwoing links (the original undebiased checkpoints can be downloaded from the link in `coref/`):
 
 |                | aCDA-debiased | nCDA-debiased |
 | -------------  |:-------------:| -------------:|
