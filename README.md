@@ -1,5 +1,6 @@
-# CounterGAP
-The CounterGAP dataset is located in `data/`, where 'C-GAP.tsv' is the dataset used in our experiments and `C-GAP-withdot.tsv` is the original dataset with a "." after titles ({e.g.}, Mr., Mrs., etc.).
+# Counter-GAP
+
+The Counter-GAP dataset is located in `data/`, where 'C-GAP.tsv' is the dataset used in our experiments and `C-GAP-withdot.tsv` is the original dataset with a "." after titles ({e.g.}, Mr., Mrs., etc.).
 The implementation of coreference resolution models in `coref/` are directly copied from , with the only change of the `read_tsv` method in `coref/gap_to_jsonlines.py`. [Dense Passage Retrieval for Open-Domain Question Answering.](https://arxiv.org/abs/2004.04906)
 
 ## Debiased Models
