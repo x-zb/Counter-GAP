@@ -15,6 +15,7 @@ Subsitute the original training set (train.english.v4_gold_conll) with the debia
 You can download our aCDA/nCDA-debiased BERT/SpanBERT checkpoints from the follwoing links:
 
 |                | aCDA-debiased | nCDA-debiased |
+| -------------  |:-------------:| -------------:|
 | BERT-base      |               |               |
 | BERT-large     |               |               |              
 | SpanBERT-base  |               |               |
